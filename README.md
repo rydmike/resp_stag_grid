@@ -2,13 +2,9 @@
 
 Short example of how to use brekpoints to layout a grid in Flutter WEB and Desktop using Flutter's standard GridView and Romain Rastel's StaggeredGridView.
 
-## Preview
-![](RespGridDemo1.png) ![](RespGridDemo2.png)
-![](resp_grid_demo2.gif)
-
 ## Demonstrated features
 
-Demo of responsive grid layout based on breakpoints and changing column sizes.
+Demo of responsive grid layout based on breakpoints and dynamic column numbers and widths
 
 This example is designed for Flutter Desktop or WEB where you have larger surface and can resize the window. It will run OK on phones and tablets as well, but the demo is less interesting on them.
 
@@ -21,3 +17,16 @@ To test different sized columns, choose a value below to divide the total column
 - As a "side effect" this demo also show how to setup Flutter WEB and Desktop in the same project when/if you need 'dart.io' in Flutter Desktop, but it does not compile in Flutter WEB. This is the case at least in Flutter master, v1.10.3-pre.67. This example uses a conditional Dart lib import to accomplish this.
 
 - Usage of the in Dart 1.9 new ToggleButtons widget is also demonstrated as a control for selecting the divisor of the total amount columns for the given breakpoint width. This is used to demonstrate how to make wider columns for the gridviews in a standard 12 column grid layout.
+
+
+## Preview
+
+Start screen, select column divisor and try the responsive grid layout with a standard grid or the masonary style StaggeredGridView layout.
+![](RespGridDemo1.png) 
+
+Example of dynamic staggered grid layout
+![](RespGridDemo2.png)
+
+Animted GIF that also shows the potential issue with the staggered grid layout.
+![](resp_grid_demo2.gif)
+
