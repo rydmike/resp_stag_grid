@@ -22,11 +22,14 @@ To test different sized columns, choose a value below to divide the total column
 ## Preview
 
 Start screen, select column divisor and try the responsive grid layout with a standard grid or the masonry style StaggeredGridView layout.
+
 ![](RespGridDemo1.png) 
 
 Example of dynamic staggered grid layout
+
 ![](RespGridDemo2.png)
 
 Animated GIF that also shows the potential issue with the staggered grid layout.
+
 ![](resp_grid_demo2.gif)
 
