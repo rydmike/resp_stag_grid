@@ -97,11 +97,10 @@ class _StartPageState extends State<StartPage> {
               SizedBox(
                 width: 250,
                 child: Text(
-                    'To test different sized columns, choose a value below to '
-                    'divide the total columns with. The total columns refer to '
-                    'the number of columns that are available for the '
-                    'current layout width'
-                    's breakpoint.',
+                    "To test different sized columns, choose a value below to "
+                    "divide the total columns with. The total columns refer to "
+                    "the number of columns that are available for the "
+                    "current layout width's breakpoint.",
                     style: TextStyle(fontSize: 12)),
               ),
               SizedBox(height: 8),
