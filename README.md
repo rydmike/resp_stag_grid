@@ -2,6 +2,9 @@
 
 Short example of how to use brekpoints to layout a grid in Flutter WEB and Desktop using Flutter's standard GridView and Romain Rastel's StaggeredGridView.
 
+## Preview
+![](resp_grid_demo2.gif)
+
 ## Demonstrated features
 
 Demo of responsive grid layout based on breakpoints and changing column sizes.
