@@ -1,16 +1,16 @@
 # resp_stag_grid
 
-Responsive Grid and Staggered Grid Demo
+Short example of how to use brekpoints to layout a grid in Flutter WEB and Desktop using Flutter's standard GridView and Romain Rastel's StaggeredGridView.
 
-## Getting Started
+## Demonstrated features
 
-This project is a starting point for a Flutter application.
+Demo of responsive grid layout based on breakpoints and changing column sizes.
 
-A few resources to get you started if this is your first Flutter project:
+This example is designed for Flutter Desktop or WEB where you have larger surface and can resize the window. It will run OK on phones and tablets as well, but the demo is less interesting on them.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To test different sized columns, choose a value below to divide the total columns with. The total columns refer to amount of columns that are available for the breakpoint at current layout width.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The Flutter Standard Grid works as expected. As known the standard grid is a square and cannot size height to fit content. You can see the challange with this in this example, if you make the columns too small by selecting 1 or 2 to divide the available columns with in the breakpoint columns for the avtive window width.
+
+
+- The staggered grid can fit the height and make a masonary style layout automatically. There does however seem to be an elusive issue that makes it sometimes drop items in the grid when you resize the window. Sometimes it also does not rebuild corectly when resizing the window size, especially if changing only the width.
