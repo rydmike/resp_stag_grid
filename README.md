@@ -3,6 +3,7 @@
 Short example of how to use brekpoints to layout a grid in Flutter WEB and Desktop using Flutter's standard GridView and Romain Rastel's StaggeredGridView.
 
 ## Preview
+![](RespGridDemo1.png) ![](RespGridDemo2.png)
 ![](resp_grid_demo2.gif)
 
 ## Demonstrated features
