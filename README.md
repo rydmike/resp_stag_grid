@@ -18,10 +18,13 @@ To test different sized columns, choose a value below to divide the total column
 
 - Usage of the in Dart 1.9 new ToggleButtons widget is also demonstrated as a control for selecting the divisor of the total amount columns for the given breakpoint width. This is used to demonstrate how to make wider columns for the grid views in a standard 12 column grid layout.
 
+## Live demo version
+
+You can play with the live WEB version here: https://rydmike.github.io/gridtest
 
 ## Preview
 
-Start screen, select column divisor and try the responsive grid layout with a standard grid or the masonry style StaggeredGridView layout.
+Below is a preview of the start screen. Select column divisor to try the responsive grid layout with a standard grid or the masonry style StaggeredGridView layout.
 
 ![](RespGridDemo1.png) 
 
