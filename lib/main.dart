@@ -87,7 +87,7 @@ class _StartPageState extends State<StartPage> {
               SizedBox(
                 width: 250,
                 child: Text(
-                    'This example is designed for Flutter Desktop or WEB where '
+                    'This example is designed for Flutter Desktop or WEB, where '
                     'you have larger surface and can resize the window. It will '
                     'run OK on phones and tablets as well, but the demo is less '
                     'interesting on them.',
@@ -99,8 +99,9 @@ class _StartPageState extends State<StartPage> {
                 child: Text(
                     'To test different sized columns, choose a value below to '
                     'divide the total columns with. The total columns refer to '
-                    'amount of columns that are available for the '
-                    'breakpoint at current layout width.',
+                    'the number of columns that are available for the '
+                    'current layout width'
+                    's breakpoint.',
                     style: TextStyle(fontSize: 12)),
               ),
               SizedBox(height: 8),
@@ -129,9 +130,9 @@ class _StartPageState extends State<StartPage> {
               SizedBox(
                 width: 250,
                 child: Text(
-                    'As known the standard grid is a square and cannot size '
-                    'height to fit content. You can see the challange with this '
-                    'in this example, if you make the columns too small by '
+                    'As known the standard grid is a square and cannot size its '
+                    'height to fit the content. You can see the challange with this '
+                    'in this example if you make the columns too small by '
                     'selecting 1 or 2 above.',
                     style: TextStyle(fontSize: 12)),
               ),
@@ -158,10 +159,10 @@ class _StartPageState extends State<StartPage> {
                 width: 250,
                 child: Text(
                     'The staggered grid can fit the height and make a masonary '
-                    'style layout automatically. There does however seem to be an '
-                    'elusive issue that makes it sometimes drop '
-                    'items in the grid when you resize the window. '
-                    'Sometimes it also does not rebuild corectly when resizing '
+                    'style layout automatically. There does however seem to be '
+                    'an issue that makes it sometimes drop '
+                    'items from the grid when you resize the window. '
+                    'Sometimes it also does not rebuild correctly when resizing '
                     'the window size, especially if changing only the width.',
                     style: TextStyle(fontSize: 12)),
               ),
@@ -247,7 +248,7 @@ class NormalGridExample extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          "Cannot resize height to fit content in a "
+                          "We cannot resize height to fit content in a "
                           "standard grid.",
                           textAlign: TextAlign.center,
                         ),
