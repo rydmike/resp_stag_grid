@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'about.dart';
 import 'random_color.dart';
 import 'staggered_grid_example1.dart';
-import 'staggered_grid_example2.dart';
 import 'staggered_grid_example3.dart';
 import 'standard_grid_example.dart';
 
@@ -250,41 +249,7 @@ class _StartPageState extends State<StartPage> {
                         ),
                       );
                     },
-                    child: const Text('Staggered grid demo 1'),
-                  ),
-                ),
-                const SizedBox(height: 20),
-                Row(children: <Widget>[
-                  Expanded(child: Container()),
-                  const Expanded(
-                    flex: 10,
-                    child: Text(
-                      'The staggered grid can also use varying width columns. '
-                      'It can however not fully optimize the layout for such a '
-                      'setup. It needs to be "hand designed" for that, but the '
-                      'automatic feature can still be useful for some layouts.',
-                    ),
-                  ),
-                  Expanded(child: Container()),
-                ]),
-                SizedBox(
-                  width: 250,
-                  child: ElevatedButton(
-                    onPressed: () {
-                      Navigator.push<Widget>(
-                        context,
-                        MaterialPageRoute<Widget>(
-                          builder: (BuildContext context) =>
-                              StaggeredGridExample2(
-                            spaceAbove: rndSpaceAbove,
-                            spaceBelow: rndSpaceBelow,
-                            colors: randomColors,
-                            columnDiv: columnDiv,
-                          ),
-                        ),
-                      );
-                    },
-                    child: const Text('Staggered grid demo 2'),
+                    child: const Text('Staggered grid demo'),
                   ),
                 ),
                 const SizedBox(height: 20),

@@ -13,8 +13,8 @@ class AppData {
   // When I build new public web versions of the demos, I just make sure to
   // update this info before I trigger GitHub actions CI/CD that builds them.
   static const String appName = 'Responsive\u{00AD}GridDemo';
-  static const String version = '2.0.0';
-  static const String packageVersion = 'StaggeredGridView package 0.4.1';
+  static const String version = '2.1.0';
+  static const String packageVersion = 'StaggeredGridView package 0.5.0-dev-1';
   static const String packageUrl =
       'https://pub.dev/packages/flutter_staggered_grid_view';
   static const String flutterVersion = 'stable v2.8.0';

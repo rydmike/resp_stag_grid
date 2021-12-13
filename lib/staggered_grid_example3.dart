@@ -59,17 +59,16 @@ class StaggeredGridExample3 extends StatelessWidget {
                   const SizedBox(height: 20),
                 ]),
               ),
-              SliverStaggeredGrid.countBuilder(
+              SliverMasonryGrid.count(
                 crossAxisCount:
                     Breakpoint.useColumns(breakpoint.columns, columnDiv),
                 crossAxisSpacing: breakpoint.gutters,
                 mainAxisSpacing: breakpoint.gutters,
-                itemCount: spaceAbove.length,
-                staggeredTileBuilder: (int index) => const StaggeredTile.fit(1),
+                childCount: spaceAbove.length,
                 itemBuilder: (_, int index) {
                   return Card(
                     color: colors[index].shade100,
-                    elevation: 2,
+                    elevation: 5,
                     child: Center(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,

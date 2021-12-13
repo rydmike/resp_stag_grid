@@ -36,19 +36,17 @@ class StaggeredGridExample1 extends StatelessWidget {
               style: const TextStyle(fontSize: 12),
             ),
           ),
-          body: StaggeredGridView.countBuilder(
+          body: MasonryGridView.count(
             padding: EdgeInsets.all(breakpoint.gutters),
             crossAxisCount:
                 Breakpoint.useColumns(breakpoint.columns, columnDiv),
             crossAxisSpacing: breakpoint.gutters,
             mainAxisSpacing: breakpoint.gutters,
             itemCount: spaceAbove.length,
-            staggeredTileBuilder: (int index) => const StaggeredTile.fit(1),
-            //shrinkWrap: true,
             itemBuilder: (BuildContext context, int index) {
               return Card(
                 color: colors[index].shade100,
-                elevation: 2,
+                elevation: 5,
                 child: Center(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
