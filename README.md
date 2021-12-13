@@ -3,7 +3,7 @@
 Short example of how to use breakpoints to layout a grid in Flutter WEB and 
 Desktop using Flutter's standard GridView and Romain Rastel's StaggeredGridView.
 
-**This version is using Staggered Grid 0.4.1.**
+**This version is using Staggered Grid 0.5.0-dev.1.**
 
 Flutter master v1.10.3-pre.67 on a Windows 10 desktop 18.9.2019
 The old build is still published [here](https://rydmike.com/gridtest/#/).
