@@ -20,7 +20,7 @@ After the old project's null-safety migration, we can build the same demo from
 still see the issues with Staggered Grid remain in that build when using 
 [Staggered Grid v 0.4.1](https://pub.dev/packages/flutter_staggered_grid_view/versions/0.4.1)
 
-It can be tested here:
+It can be tested [here](https://rydmike.com/gridtest-0-4-1).
 
 If we switch to the new version 
 [0.5.0-dev.1](https://pub.dev/packages/flutter_staggered_grid_view/versions/0.5.0-dev.1) 
@@ -32,7 +32,7 @@ intended for a small amount of items, like row and column. It does however have
 a new **MasonryGridView** layout that fills most needs. It also gains a number 
 of new interesting layouts not shown in this demo.
 
-For comparison the new version 0.5.1-dev.1 can be tested here:
+For comparison the new version [0.5.1-dev.1 can be tested here](https://rydmike.com/gridtest-0-5-0-dev-1)
 
 It no longer shows the resizing issues and is much faster.
 
